@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="Test.css">
+    <link rel="stylesheet" href="Sportsworld.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(document).ready(function(){
+/* Hier der jQuery-Code */
+$('#Plan1-einausblenden').click(function(){
+$('#Plan1').toggle('slow');
+  $('#Plan1').addClass("hidden");  // hide
+})
+$('#Plan2-einausblenden').click(function(){
+$('#Plan2').toggle('slow');
+  $('#Plan2').addClass("hidden");  // hide
+  
+})
+$('#Plan3-einausblenden').click(function(){
+$('#Plan3').toggle('slow');
+  $('#Plan3').addClass("hidden");  // hide
+  
+})
+$('#Plan4-einausblenden').click(function(){
+$('#Plan4').toggle('slow');
+  $('#Plan4').addClass("hidden");  // hide
+  
+})
+$('#Plan5-einausblenden').click(function(){
+$('#Plan5').toggle('slow');
+  $('#Plan5').addClass("hidden");  // hide
+  
+})
+$('#Plan6-einausblenden').click(function(){
+$('#Plan6').toggle('slow');
+  $('#Plan6').addClass("hidden");  // hide
+  
+})
+$('#Plan7-einausblenden').click(function(){
+$('#Plan7').toggle('slow');
+  $('#Plan7').addClass("hidden");  // hide
+  
+})
+$('#Plan8-einausblenden').click(function(){
+$('#Plan8').toggle('slow');
+  $('#Plan8').addClass("hidden");  // hide
+  
+})
+});
+    </script>
+    
+</head>
+<body>
+    <div class="Fit_Menu Mitte">
+        <div class="Fit_option">
+            <button class="Spruch3">
+                <h2 class="Thema">Körpergewicht</h2>
+            </button><br>
+            <img class="Bild_Main1 Bild_Main" src="Bilder/Körpergewicht.jpg" alt="" width="100%"><br><br>
+            
+                <p class="Spruch5" >Calisthenics </p>
+            <br>
+                <p class="Spruch5">Workouts</p>
+            <br>
+            <a id="Plan1-einausblenden">
+                <p class="Spruch5" id="PlanAnzeigen">
+                   Einzelübungen
+                </p></a>
+                <div class="hidden Spruch2" id="Plan1">
+                  <ul>
+                    <li>Liegestütze</li>
+                    <li>Sit Ups</li>
+                    <li>Klimmzüge</li>
+                    <li>Dips</li>
+                  </ul>
+               
+                </div><br>
+
+        </div>
+
+        <div class="Fit_option">
+            <button class="Spruch3">
+                <h2 class="Thema">Krafttraining</h2>
+            </button><br>
+            <img class="Bild_Main1 Bild_Main" src="Bilder/Krafttraining.webp" alt="" width="100%"><br><br>
+            
+                <p class="Spruch5" >Übungen</p>
+            <br>
+                <p class="Spruch5">Trainingspläne</p>
+            <br>
+        </div>
+        <div class="Fit_option">
+            <button class="Spruch3">
+                <h2 class="Thema">Cardio</h2>
+            </button><br>
+            <img class="Bild_Main1 Bild_Main" src="Bilder/Cardio.jpg" alt="" width="100%"><br><br>
+            <a href="SW_Tri.html">
+                <p class="Spruch5" >Triathlon</p></a>
+            <br>
+            <a href="SW_Swim.html">
+                <p class="Spruch5">Schwimmen</p></a>
+            <br>
+            <a href="SW_Rad.html">
+                <p class="Spruch5">Radfahren</p></a>
+            <br>
+            <a href="SW_Run.html">
+                <p class="Spruch5">Laufen</p></a>
+            <br>
+            <a href="#Cardio">
+                <p class="Spruch5">Cardio im Gym</p></a>
+            <br>
+            
+
+        </div>
+    </div>
+</body>
+</html>

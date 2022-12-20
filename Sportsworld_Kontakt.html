@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportsworld - Kontakt</title>
+    <link rel="stylesheet" href="Sportsworld.css">
+    <link rel="stylesheet" href="Background_Fitness.css">
+    <link rel="stylesheet" href="Sportsworld_mobile.css">
+    <script src="Sportsworld.js"></script>
+</head>
+<body>
+    <my-header></my-header>
+
+    <div class="Uberschrift">
+        <br>
+        <h1 class="special" >Willkommen bei Sportsworld.</h1>
+        <p class="special">DAS Sportforum!</p>
+        
+        <h2 class="special">Kontakt und FAQs</h2><br>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f8f4ff" fill-opacity="1" d="M0,160L120,176C240,192,480,224,720,240C960,256,1200,256,1320,256L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    <div class="content">
+        <svg class="Main_Icon" width="200" height="200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.75 6.75a2 2 0 0 1 2-2h10.5a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2h-2.625l-2.625 3-2.625-3H6.75a2 2 0 0 1-2-2v-7.5Z"></path>
+                <path d="M9.5 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"></path>
+                <path d="M12.5 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"></path>
+                <path d="M15.5 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"></path>
+               </svg>
+            
+        <form id="Kontaktformular" class="Kontakt" method="post" action="send_email.php">
+            
+            
+            <h2 >Kontaktformular</h2><br>
+          
+          <input class="Spruch6" type="text" id="fname" name="firstname" placeholder="Dein Vorname..." required>
+          
+          <input class="Spruch6" type="text" id="lname" name="lastname" placeholder="Dein Nachname..." required>
+          <br><br>
+  
+          
+          <input class="Spruch6 message" type="text" id="Betreff" name="yBetreff" placeholder="Betreff..." required>
+          <br><br>
+          <input class="Spruch6 message" type="text" id="Email-adresse" name="Email" placeholder="Deine Email-adresse ..." required>
+          <br><br>
+  
+          <textarea class="message Spruch6" id="subject" name="subject" placeholder="Schreib etwas.." style="height:200px"></textarea>
+          <br><br>
+            
+          <button class="Spruch3 " type="submit" value="abschicken" onclick="window.promp('Hat geklappt')">
+            <h3>Senden</h3>
+          </button>
+          
+        </form>
+        <svg class="Main_Icon" width="200" height="200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.25 12a7.25 7.25 0 1 1-14.5 0 7.25 7.25 0 0 1 14.5 0Z"></path>
+            <path d="M9.75 10S10 7.75 12 7.75 14.25 9 14.25 10c0 .751-.423 1.503-1.27 1.83-.515.199-.98.618-.98 1.17v.25"></path>
+            <path d="M12.5 16a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"></path>
+           </svg>
+        <div class="Kontakt">
+            
+            <h2>Generell</h2>
+              <details>
+                  <summary>Was ist Sportsworld ?</summary>
+                  <p>Sportsworld ist ein Onlinesportforum für Calisthenics, Fitness, Triathlon, Schwimmen, Radfahren und Laufen.</p>
+              </details><br>
+              <details>
+                  <summary>Kostet Sportworld etwas ?</summary>
+                  <p>Nein,es ist kostenlos.</p>
+              </details><br>
+              <h2>Kauf</h2>
+              <details>
+                  <summary>Kaufe ich das Equipment & die Ernährung bei Sportworld?</summary>
+                  <p>Nein, wir geben nur eine Kaufempfehlung.</p>
+              </details><br>
+              <details>
+                  <summary>Was soll ich tun wenn ich Probleme bei meiner Bestellung habe?</summary>
+                  <p>Kontaktieren Sie den Verkäufer. Dieser ist für die Abwicklung Ihres Kaufes zuständig. Bei ihm haben Sie das
+                    Produkt gekauft.
+                  </p>
+              </details><br>
+              <details>
+                  <summary>Wer kommt für evtl Schäden am Produkt auf?</summary>
+                  <p>Dafür ist der Verkäufer zuständig. Bei ihm haben Sie das
+                    Produkt gekauft. Wir sind deshalb nicht in Haftung.
+                  </p>
+              </details><br>
+              <h2>Inhalt</h2>
+              <details>
+                  <summary>Was soll ich tun wenn ich Anmerkungen zum Inhalt habe und etwas ergänzen will?</summary>
+                  <p>Das freut uns sehr. Kontaktieren sie uns bitte <a class="a" href="#Kontaktformular">hier</a>. </p>
+              </details><br>
+              
+              <details>
+                  <summary>Wo kann ich die Richtigkeit des Inhalts überprüfen?</summary>
+                  <p>Alle angegebenen Sportarten werden von mir (Entwickler) praktiziert.
+                      Außerdem geben wir keine Garantie auf die 100% Richtigkeit der auf 
+                      dieser Website gegeben Informationen.
+                      Jedoch haben wir jede Information überprüft und wollen keinesfalls Falschinformationen verbreiten
+                      Wir behalten uns aber evtl. Fehler vor.</p>
+                      <p>Bei Verbesserungsvorschlägen kontaktieren sie uns <a class="Link" href="#Kontaktformular">hier</a>. </p> 
+                  
+              </details><br>
+              <h2>Weitere Fragen ...</h2>
+              <p>Bei weiteren Fragen kontaktieren Sie uns bitte <a class="Link" href="#Kontaktformular">hier </a>.</p>
+          </div>
+        <my-footer>    </my-footer>
+    </div>
+</body>
+</html>

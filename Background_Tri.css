@@ -1,0 +1,19 @@
+body{
+    color: white;
+    
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('Bilder/Triathlon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 480px) 
+{
+    body{
+        
+        background-image: url('Bilder/Triathlon2.jpg');
+      
+    }   
+}

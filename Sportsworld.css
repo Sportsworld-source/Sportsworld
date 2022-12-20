@@ -1,0 +1,368 @@
+
+
+.Uberschrift {
+    width: 50%;
+    margin: 15% 25% 20% 25%;
+    height: 20%;
+    padding-top: -10%;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #f8f4ff;
+    opacity: 90%;
+  }
+  .special{
+    text-align: center;
+    color: black;
+  }
+  .special:hover{
+      color: black;
+      text-shadow: 0 0 5px white;
+      cursor: grab;
+      
+  }
+  
+  .content{
+    margin-top: -2%;
+    margin-bottom: -1%;
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f4ff;
+    
+    color: black;
+   
+}
+.Spruch{
+    font-style: italic;
+    background-color: white;
+    color: black;
+    border: black solid;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 25px;
+}
+.Spruch:hover{
+    background-color: black;
+    color: white;
+    border: #54b3d6 solid;
+    cursor: pointer;
+}
+.Zitat{
+    width: 100%;
+    margin: 25%;
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+    font-weight: 200;
+}
+.Spruch1{
+    background-color: #f8f4ff;
+    color: black;
+    border: black dotted;
+    border-radius: 25px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.Spruch1:hover{
+    border: dotted;
+    color: white;
+    background-color: #54b3d6  ;
+}
+.Spruch2{
+  background-color: #f8f4ff;
+  margin: 2% 20% 2% 20%;
+  color: black;
+  border: black dotted;
+  border-radius: 25px;
+  width: 60%;
+  padding: 1%;
+}
+.Main_Icon{
+  width: 60%;
+  margin: 2% 20% 2% 20%;
+}
+        
+.was_wir_machen{
+    color:black ;
+    text-decoration: underline;
+    text-align: center;
+}
+.was_wir_machen:hover{
+    color: #54b3d6;
+    cursor: grab;
+}
+#slideshow {
+    text-align: center;
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    border-radius: 25px;
+    margin-left: 2%;
+    float: left;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+    margin-left: 2%;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+  
+  .slide:nth-child(1) {
+    background-image: url(Bilder/calisthenics.jpg);
+    background-size: 110%;
+  }
+  
+  .slide:nth-child(2) {
+    background-image: url(Bilder/Triathlon.jpg);
+    background-size: 110%;
+  }
+  
+  .slide:nth-child(3) {
+    background-image: url(Bilder/HintergrundMain.webp);
+    background-size: 110%;
+  }
+  
+  .slide:nth-child(4) {
+    background-image: url(Bilder/Laufschuh.jpg);
+    background-size: 110%;
+  }
+ 
+  .slide-number {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 0 0 5px black;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  
+
+
+.content_main{
+    background-color: #54b3d6;
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row: 2fr 1fr 1fr 1fr 1fr;
+    margin-top: -1%;
+    margin-bottom: -3%;
+} 
+.Info{
+width: 100%;
+height: 100%;
+text-align: center;
+overflow: hidden;
+
+}
+
+
+.Text{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font-style: italic;
+    }
+.special1{
+  color: #f8f4ff;
+  text-decoration: none;
+}
+.special1:hover{
+    
+    text-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+.Bild_Main:hover{
+ opacity: 90%;
+}
+.Kontakt{
+  border-radius: 25px;
+ text-align: left;
+  width: 40%;
+  height: 60%;
+  padding: 2%;
+  color: black;
+  background-color: #54b3d6;
+  margin-left: 30%;
+  overflow: hidden;
+}
+
+.ÜberUns{
+    
+  height: 130%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-row: 1fr 1fr 1fr 1fr ;
+} 
+.Spruch3{
+  background-color:#f8f4ff ;
+  border-radius: 25px;
+  width: 90%;
+  margin: 5% 5% 5% 5%;
+  align-items: center;
+  text-decoration: none;
+}
+.Spruch3:hover{
+  -webkit-box-shadow: 5px 5px 15px 5px #f8f4ff; 
+box-shadow: 5px 5px 15px 5px #f8f4ff;
+
+}
+
+
+.hidden {display:none}
+  
+.Spruch4{
+  font-style: italic;
+  background-color: #f8f4ff;
+  color: black;
+  border: black solid;
+  margin-left: 40%;
+  
+  margin-bottom: 1%;
+  border-radius: 25px;
+  padding: 1%;
+  width: 20%;
+  height: fit-content;
+  font-size: medium;
+  text-align: center;
+    
+}
+.Spruch4:hover{
+  background-color: black;
+  color: white;
+  border: #54b3d6 solid;
+  cursor: pointer;
+}
+.Link{
+  text-decoration: none;
+  color: #f8f4ff;
+}
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  width: 100%;
+  height: 100% ;
+  background-color: #54b3d6;
+  margin: -1% 0 -1% 0;
+}
+.Mitte{
+  text-align: center;
+}
+.Skills {  display: grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  padding: -2%;
+  height: max-content ;
+  background-color: #54b3d6;
+  margin: -1% 2% -1% 0;
+}
+.bild_skills{
+  border-radius: 25px;
+  width: 100%;
+}
+.Spruch5{
+  font-style: italic;
+  background-color: #f8f4ff;
+  color: black;
+  border: black solid;
+  margin-left: 20%;
+  margin-bottom: 1%;
+  border-radius: 25px;
+  padding: 3%;
+  width: 60%;
+  height: fit-content;
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+}
+.Spruch5:hover{
+  background-color: black;
+  color: white;
+  border: #54b3d6 solid;
+  cursor: pointer;
+}
+.Bild_Main1{
+  border-radius: 25px
+}
+.SubSVG1{
+  margin-top: -5%;
+  
+  
+}
+.Video{
+  border-radius: 25px;
+  width: 28%;
+  height: 500px;
+  margin: 20% 35% 2% 35%;
+}
+.Video1{
+  float: right;
+  width: 28%;
+  height: 510px;
+  margin-right: 3%;
+  border-radius: 25px;
+}
+.Spruch6{
+  font-style: italic;
+  background-color: white;
+  color: black;
+  border: black solid;
+  padding: 2%;
+  width: 40%;
+  border-radius: 25px;
+}
+.Spruch6:hover{
+  background-color: black;
+  color: white;
+  border: white solid ;
+  cursor: pointer;
+}
+.message{
+  width: 90%;
+}
+.Spruch7{
+  font-style: italic;
+  background-color: #f8f4ff;
+  color: black;
+  border: black solid;
+  margin-left: 25%;
+  
+  margin-bottom: 1%;
+  border-radius: 25px;
+  padding: 1%;
+  width: 50%;
+  height: fit-content;
+  font-size: medium;
+  text-align: center;
+    
+}
+.Spruch7:hover{
+  background-color: black;
+  color: white;
+  border: #54b3d6 solid;
+  cursor: pointer;
+}
+
+
+

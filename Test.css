@@ -1,0 +1,60 @@
+body{
+  margin: 0%	;
+}
+
+
+.Fit_Menu{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 90%;
+  margin: 5%;
+  height: 100%;
+  
+  padding: 1%;
+}
+.Fit_option{
+  width: 90%;
+  height: 95%;
+  padding: 1%;
+  position: relative;
+  top: 0%;
+  margin: 2% ;
+  background-color: #54b3d6;
+  border: solid black;
+  border-radius: 25px;
+  display: inline-block;
+  
+}
+.Fit_option:hover{
+  width: 92%;
+  height: 96%;
+  margin: 1%;
+  background-color: #f8f4ff;
+  -webkit-box-shadow: 14px 14px 21px #9fa4b3, -14px -14px 21px #ffffff;
+box-shadow: 14px 14px 21px #9fa4b3, -14px -14px 21px #ffffff;
+}
+.Spruch5{
+  font-style: italic;
+  background-color: #f8f4ff;
+  color: black;
+  border: black solid;
+  margin-left: 35%;
+  margin-bottom: 1%;
+  border-radius: 25px;
+  padding: 3%;
+  width: 30%;
+  height: fit-content;
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+}
+.Spruch5:hover{
+  background-color: black;
+  color: white;
+  border: #54b3d6 solid;
+  cursor: pointer;
+}
+.Bild_Main1{
+  border-radius: 25px
+}

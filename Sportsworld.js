@@ -78,7 +78,7 @@ class MyHeader extends HTMLElement {
                         }
     </style>
     <div class="header">
-    <div class="option"><a class="logo a" href="Sportsworld.html">🇸‌🇵‌🇴‌🇷‌🇹‌🇸‌🇼‌🇴‌🇷‌🇱‌🇩‌ </a> <p class=beta>(Beta Version)</p></div>
+    <div class="option"><a class="logo a" href="index.html">🇸‌🇵‌🇴‌🇷‌🇹‌🇸‌🇼‌🇴‌🇷‌🇱‌🇩‌ </a> <p class=beta>(Beta Version)</p></div>
         <div class="option dropdown">Sportarten
             <div class="dropdown-content">
                 <a class="a" href="SW_Fit.html">Fitness</a>
